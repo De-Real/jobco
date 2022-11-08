@@ -1,0 +1,29 @@
+.wrapper{
+	background-color: #fff;
+	max-width: 1400px;
+	min-height: 164px;
+	box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.08), 0px 2px 1px -1px rgba(0, 0, 0, 0.04), 0px 1px 3px rgba(0, 0, 0, 0.12);
+	border-radius: 8px;
+	padding: 24px 16px;
+}
+@media (max-width: 700px){
+
+}
+
+@media (max-width: 560px){
+	.wrapper{
+		padding: 20px 12px;
+	}
+}
+
+@media (max-width: 420px) {
+	.wrapper{
+		padding: 16px 8px;
+	}
+}
+
+@media (max-width: 360px){
+	.wrapper{
+		padding: 12px 5px;
+	}
+}

@@ -1,0 +1,103 @@
+.section{
+	color: #3A4562;
+	width: 500px;
+}
+
+@media (max-width: 630px){
+	.section{
+		width: auto;
+	}
+	
+}
+
+
+.section h2{
+	font-weight: 700;
+font-size: 28px;
+line-height: 1.21;
+letter-spacing: 0.413333px;
+border-bottom: 1px solid rgba(58, 69, 98, 0.13);
+margin-bottom: 15px;
+padding-bottom: 8px
+}
+
+@media (max-width: 440px){
+	.section h2{
+		font-size: 20px;
+	}
+}
+
+.textarea{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+
+
+.textarea textarea{
+	resize: none;
+	border: 1px solid #3A4562;
+	color: #3A4562;
+	min-height: 100px;
+	padding: 15px 10px;
+}
+
+.textarea label{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+@media (max-width: 440px){
+	.textarea textarea{
+		min-height: 80px;
+		padding: 10px 5px;
+	}
+	.textarea label{
+		font-size: 16px;
+		margin-bottom: 7px;
+	}
+}
+
+
+.file{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+
+
+.file label{
+	font-size: 20px;
+	padding-bottom: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+@media (max-width: 420px){
+	.file label{
+		font-size: 16px;
+	}
+}
+
+.file label img{
+	padding-right: 8px;
+}
+
+.file input{
+	display: none;
+}
+
+.buttons{
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+
+@media (max-width: 440px){
+	.buttons{
+		gap: 7px;
+	}
+}

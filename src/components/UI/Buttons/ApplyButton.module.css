@@ -1,0 +1,22 @@
+.button{
+padding: 18px 30px;
+background: #384564;
+border-radius: 8px;
+font-family: Proxima Nova;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.333;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+
+.button:hover{
+	background: rgba(57, 70, 101, 0.85);
+	transition: all .075s ease 0s;
+}
+
+.button:active{
+	background: rgba(57, 70, 101, 0.95);
+}

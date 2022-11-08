@@ -1,0 +1,32 @@
+.zoomed-img{
+	width: 800px;
+	height: 500px;
+}
+
+.zoomed-img img{
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 874px){
+	.zoomed-img{
+		width: 550px;
+		height: 400px;
+	}
+}
+
+@media (max-width: 608px){
+	.zoomed-img{
+		width: 450px;
+		height: 320px;
+	}
+}
+
+@media (max-width: 510px) {
+	.zoomed-img{
+		width: 350px;
+		height: 200px;
+	}
+}
+
+

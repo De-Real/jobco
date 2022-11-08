@@ -1,0 +1,40 @@
+.button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(56, 69, 100, 0.14);
+	mix-blend-mode: normal;
+	border-radius: 8px;
+	width: 213px;
+	height: 50px;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.333;
+	text-align: center;
+	text-transform: uppercase;
+	color: #3A4562;
+}
+
+@media (max-width: 440px){
+	.button{
+		width: 120px;
+	}
+}
+.button .arrow{
+	margin-right: 19px;
+}
+
+@media (max-width: 440px){
+	.button .arrow{
+		margin-right: 10px;
+	}
+}
+
+.button:hover{
+	background: rgba(56, 69, 100, 0.075);
+	transition: all 0.1s ease 0s;
+}
+
+.button:active{
+	background: rgba(56, 69, 100, 0.12);
+}

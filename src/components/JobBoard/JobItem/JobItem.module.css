@@ -1,0 +1,69 @@
+
+.job {
+	display: flex;
+	min-height: 164px;
+}
+
+.job__img{
+	flex: 0 0 85px;
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 26px;
+	cursor: pointer;
+}
+
+@media (max-width: 700px){
+	.job__img{
+		margin-right: 19px;
+	}
+}
+
+@media (max-width: 560px){
+	.job__img{
+		flex: 0 0 66px;
+	width: 66px;
+	height: 66px;
+	margin-right: 15px;
+	margin-top: 45px;
+	}
+}
+
+@media (max-width: 420px) {
+	.job__img{
+		flex: 0 0 56px;
+	width: 56px;
+	height: 56px;
+	margin-right: 8px;
+	margin-top: 45px;
+	}
+}
+
+.job__img img {
+	width: 100%;
+	height: 100%;
+}
+
+.job-information{
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.job-addition{
+	display: flex;
+	
+}
+
+@media (max-width: 960px) {
+	.job-information{
+		flex-direction: column-reverse;
+		
+	}
+
+	.job-addition{
+		justify-content: space-between;
+		margin-bottom: 15px;
+	}
+}

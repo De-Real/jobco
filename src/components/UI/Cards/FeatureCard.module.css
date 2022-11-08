@@ -1,0 +1,28 @@
+.feature {
+	background: rgba(161, 177, 219, 0.317343);
+	border: 1px solid rgba(85, 105, 158, 0.3);
+	border-radius: 8px;
+	padding: 17px 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.0;
+	text-align: center;
+	letter-spacing: -0.457143px;
+	color: #55699E;
+}
+
+.feature.yellow{
+	background: rgba(255, 207, 0, 0.15);
+	border: 1px solid #FFCF00;
+	color: #988B49;
+}
+
+@media (max-width: 510px) {
+	.feature{
+		padding: 13px 20px;
+		font-size: 15px;
+	}
+}

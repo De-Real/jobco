@@ -1,0 +1,43 @@
+
+.job__actions{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.job__posted{
+	font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5625;
+display: flex;
+align-items: flex-end;
+text-align: right;
+letter-spacing: 0.23619px;
+color: #878D9D;
+min-width: 138px;
+}
+
+.job__save{
+	user-select: none;
+	box-shadow: 2px 2px 10px rgba(138, 138, 138, 0.068);
+	cursor: pointer;
+}
+
+@media (max-width: 960px) {
+	.job__save{
+		display: none;
+	}
+
+	.job__posted{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 420px) {
+	.job__posted{
+		font-size: 12px;
+	}
+}

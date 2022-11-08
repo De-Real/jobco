@@ -1,0 +1,20 @@
+.job__rating{
+	padding: 0 32px;	
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 1324px){
+	.job__rating{
+		padding: 0 20px;
+	}
+}
+
+@media (max-width: 960px) {
+	.job__rating{
+		padding: 0;
+		max-height: 30px;
+		display: block;
+		align-items: center;
+	}
+}
